@@ -1,11 +1,11 @@
 autojump
 ========
 
-[autojump](https://github.com/joelthelion/autojump) is a tool for quick navigating of your filesystem.
+[autojump](https://github.com/joelthelion/autojump) is a tool for quick navigation through your filesystem.
 
 ## How does it work
 
-It maintains database of your entries, in which directory you usually go. These entries are sorted by priority:
+It maintains a database of your entries, in which directory you usually go. These entries are sorted by priority:
 
 ```bash
 $ autojump --stat
