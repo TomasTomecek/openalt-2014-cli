@@ -1,0 +1,15 @@
+# This is the default filter chain
+[SpamFilter]
+[ClassifyingFilter]
+[KillThreadsFilter]
+[ListMailsFilter]
+[ArchiveSentMailsFilter]
+[InboxFilter]
+
+[MailMover]
+folders = INBOX Junk
+max_age = 15
+
+# rules
+INBOX = 'tag:spam':Junk 'NOT tag:inbox':Archive
+Junk = 'NOT tag:spam AND tag:inbox':INBOX 'NOT tag:spam':Archive

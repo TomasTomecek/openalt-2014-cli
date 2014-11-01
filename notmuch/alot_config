@@ -1,0 +1,16 @@
+#theme=solarized_dark
+#initial_command = folders
+prompt_suffix = ": "
+search_threads_sort_order = newest_first
+editor_cmd = /usr/bin/vim -f -c 'set filetype=mail' -c 'setlocal spell spelllang=en' -c "setlocal textwidth=80" +/^$ +noh
+displayed_headers = Date,From,To,Cc,Bcc,Subject,User-Agent,Content-Type
+prefer_plaintext = 1
+notify_timeout = 10
+[accounts]
+    [[work]]
+        realname = Janko Hrasko
+        address = janko_hrasko@example.com
+        #sendmail_command = msmtp --account=wayne -t
+        sent_box = maildir:///root/mail/Sent
+        draft_box = maildir:///root/mail/Drafts
+
