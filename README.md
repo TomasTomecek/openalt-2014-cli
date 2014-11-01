@@ -21,8 +21,15 @@ Tools presented:
   * xterm
  * font
  * colorscheme
+  * solarized
  * configuration
   * start small
   * \*-sensible
+ * editors
  * echo $bell
  * tiling WM
+
+## Tips & Tricks
+
+ * `cd -`
+ * `set -o emacs` shortcuts
