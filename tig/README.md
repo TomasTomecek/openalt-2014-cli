@@ -7,6 +7,15 @@ tig
 
 `h` is for help.
 
+### Modes
+
+* `d` -- diff view
+* `l` -- log view
+* `b` -- blame view (`,` -- move to parrent)
+* `r` -- refs view
+* `s` -- status view
+* `y` -- stash view
+
 ## Alternatives
 
 None that I know of.
